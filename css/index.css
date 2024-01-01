@@ -1,0 +1,106 @@
+body {
+    background-color: #f4cf4e;
+    /* width: 95vh; 
+    height: 95vh; */
+}
+
+.post-card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    width: 40%;
+    max-width: 375px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+}
+
+.post-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#article-image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.subject-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4cf4e;
+    width: 80px;
+    height: 25px;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.subject-button-text {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: small;
+}
+
+.published {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    font-size: small;
+}
+
+.article-header {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    font-size: smaller;
+}
+
+.article-preview {
+    font-family: 'Figtree', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: darkgray;
+    line-height: 150%;
+}
+
+.article-preview p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.post-card-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 700;
+    font-size: small;
+}
+
+.author-headshot-img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 15px 0px 0px;
+}
+
+.post-card-author-name {
+    margin-bottom: 15px;
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+}
+
+.attribution p {
+    margin: 5px 0px;
+    padding: 0;
+}
