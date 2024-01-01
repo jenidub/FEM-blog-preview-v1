@@ -1,7 +1,5 @@
 body {
     background-color: #f4cf4e;
-    /* width: 95vh; 
-    height: 95vh; */
 }
 
 .post-card-container {
@@ -11,7 +9,7 @@ body {
     border: 2px solid black;
     width: 40%;
     max-width: 375px;
-    margin: 50px auto;
+    margin: 10% auto;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 10px 10px black;
@@ -49,6 +47,7 @@ body {
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
     font-size: small;
+    margin: 15px 0px;
 }
 
 .article-header {
